@@ -47,6 +47,7 @@ A custom turtle-themed enclosure was 3D-printed in PLA with tight fit tolerances
 
 <img width="407" height="279" alt="solidworksenclosure" src="https://github.com/user-attachments/assets/2b6b6068-4960-4585-9e57-01351faf7c60" />
 
+<img width="630" height="435" alt="enclosureorthogrpahic" src="https://github.com/user-attachments/assets/45f15d73-6e38-414c-8fe1-59d5f283f455" />
 
 ## Firmware
 
