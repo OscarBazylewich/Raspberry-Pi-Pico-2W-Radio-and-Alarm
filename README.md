@@ -39,8 +39,8 @@ Custom two-layer PCB designed in KiCad with the following priorities:
 - Extensive ground pours on both layers to reduce EMI
 - Components placed close together to minimize trace lengths and preserve signal integrity
 - Thermal reliefs added to pads to make hand-soldering easier despite the dense layout
-
-![3D rendered PCB](docs/images/pcb-3d-render.png)
+  
+<img width="1057" height="972" alt="3drenderedpcb" src="https://github.com/user-attachments/assets/eb9abdda-967d-4928-b739-03e7cd99b86c" />
 
 ### Enclosure (SolidWorks)
 A custom turtle-themed enclosure was 3D-printed in PLA with tight fit tolerances around the OLED display and controls, including front acoustic ports sized to match the speaker's active surface area.
