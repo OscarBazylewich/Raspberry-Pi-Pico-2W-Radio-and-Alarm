@@ -23,16 +23,15 @@ This project combines digital timekeeping, FM radio tuning, and wireless connect
 ### Circuit / Schematic
 The circuit integrates a Pico 2 W, RDA5807M FM tuner (I2C), SSD1306 OLED (SPI), LM386 audio amplifier, rotary encoder, and push buttons, with a MOSFET-switched linear regulator stage that allows the system to run off either USB power or a 9V battery.
 
-![PCB schematic](<img width="1697" height="903" alt="pcbschematic" src="https://github.com/user-attachments/assets/f5104d47-28bb-45d7-8ddf-3b8a73dfeda5" />
-)
+<img width="1697" height="903" alt="pcbschematic" src="https://github.com/user-attachments/assets/a08df9cf-e17a-4bcc-a510-66c9a18b9570" />
+
 
 Key design decisions:
 - Pull-down resistors on push buttons to prevent floating inputs
 - RC debounce filtering on rotary encoder lines to reject mechanical switch chatter
 - MOSFET-based regulator switching circuit to support dual power sourcing (USB 5V or 9V battery) while supplying a stable regulated voltage to the rest of the system
 
-![Prototype breadboard interface](<img width="630" height="226" alt="prototypebreadboardimage" src="https://github.com/user-attachments/assets/fb3cd519-febf-41e3-9324-8065379eef0e" />
-)
+<img width="630" height="226" alt="prototypebreadboardimage" src="https://github.com/user-attachments/assets/4c19208c-9f9a-40a4-96ee-80cb67cb2a44" />
 
 ### PCB Layout (KiCad)
 Custom two-layer PCB designed in KiCad with the following priorities:
