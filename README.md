@@ -4,7 +4,8 @@ A turtle-themed FM clock-radio built around a Raspberry Pi Pico 2 W, featuring a
 
 **Authors:** Oscar Bazylewich, Ethan Packer
 
-(<img width="1697" height="903" alt="pcbschematic" src="https://github.com/user-attachments/assets/30369861-8623-44e2-a987-57beeab3edea" />)
+<img width="4080" height="3072" alt="finalproduct" src="https://github.com/user-attachments/assets/56bc1907-05c3-48a4-921a-7b3245e22ea5" />
+
 
 ## Overview
 
