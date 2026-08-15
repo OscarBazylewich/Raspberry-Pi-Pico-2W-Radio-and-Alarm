@@ -55,6 +55,9 @@ Written entirely in MicroPython using `asyncio` for non-blocking concurrency bet
 - **Hardware loop** — button scanning with debounce, encoder ISR handling, OLED rendering, alarm triggering
 - **Web server loop** — parses HTTP requests and serves a live status page
 
+<img width="445" height="671" alt="image" src="https://github.com/user-attachments/assets/ee7cd501-fe4e-4ec4-a443-1b715b9363af" />
+
+
 Both interfaces route through the same shared state functions (`do_button_action`, `apply_encoder_delta`, `apply_absolute_value`), so the physical controls and web UI can never fall out of sync with each other — there's a single source of truth for what each input does in any given menu state.
 
 Full firmware source is in [`firmware/`](./firmware).
