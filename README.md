@@ -45,9 +45,8 @@ Custom two-layer PCB designed in KiCad with the following priorities:
 ### Enclosure (SolidWorks)
 A custom turtle-themed enclosure was 3D-printed in PLA with tight fit tolerances around the OLED display and controls, including front acoustic ports sized to match the speaker's active surface area.
 
-<img width="407" height="279" alt="solidworksenclosure" src="https://github.com/user-attachments/assets/7fae6278-9a93-4a33-9c05-18b44e8c32b7" />
+<img width="407" height="279" alt="solidworksenclosure" src="https://github.com/user-attachments/assets/2b6b6068-4960-4585-9e57-01351faf7c60" />
 
-<img width="630" height="435" alt="enclosureorthogrpahic" src="https://github.com/user-attachments/assets/2331c56c-f0d5-40ac-8883-94b38fd76dac" />
 
 ## Firmware
 
