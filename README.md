@@ -50,8 +50,6 @@ The circuit contains a Pico 2 W, an RDA5807M tuner (I2C), an SSD1306 OLED (SPI) 
 
 <p align="center">
   <img width="800" alt="KiCad schematic of the full circuit" src="https://github.com/user-attachments/assets/a08df9cf-e17a-4bcc-a510-66c9a18b9570" />
-  <br/>
-  <em>Schematic. The pins in the firmware agree with this revision.</em>
 </p>
 
 Important decisions for the circuit:
@@ -62,8 +60,6 @@ Important decisions for the circuit:
 - We mixed the radio audio and the alarm PWM signal at the LM386 input. Thus, the alarm and the radio use the same speaker.
 
 ### Pinout
-
-The pins agree with [`firmware/main.py`](firmware/main.py):
 
 | Signal | Pico pin | Notes |
 | --- | --- | --- |
@@ -99,8 +95,6 @@ We made the two-layer PCB layout in KiCad. These items were important for the la
 
 <p align="center">
   <img width="600" alt="KiCad 3D view of the PCB" src="https://github.com/user-attachments/assets/eb9abdda-967d-4928-b739-03e7cd99b86c" />
-  <br/>
-  <em>3D view of the same revision as the schematic.</em>
 </p>
 
 ### Enclosure (SolidWorks)
@@ -112,8 +106,6 @@ This repository does not contain the CAD files for the enclosure.
 <p align="center">
   <img width="400" alt="SolidWorks model of the turtle enclosure with the lid up" src="https://github.com/user-attachments/assets/2b6b6068-4960-4585-9e57-01351faf7c60" />
   <img width="630" alt="Orthographic drawing of the enclosure" src="https://github.com/user-attachments/assets/45f15d73-6e38-414c-8fe1-59d5f283f455" />
-  <br/>
-  <em>SolidWorks model with the lid up, and the orthographic drawing.</em>
 </p>
 
 ## How the clock radio operates
@@ -134,8 +126,6 @@ This list gives more information about the inputs, the clock and the alarm:
 
 <p align="center">
   <img width="320" alt="The web UI of the clock radio with the Home screen" src="https://github.com/user-attachments/assets/ee7cd501-fe4e-4ec4-a443-1b715b9363af" />
-  <br/>
-  <em>The web UI that the Pico 2 W sends.</em>
 </p>
 
 Each button on the web UI sends an HTTP request to `/action`, `/set_value` or `/set_time`. The web server then redirects the browser back to `/`. Thus, when the web UI reloads, it does not send the same input again.
@@ -215,8 +205,6 @@ Before the PCB was assembled, we made sure that the circuit operated correctly o
 
 <p align="center">
   <img width="630" alt="Breadboard prototype of the clock radio" src="https://github.com/user-attachments/assets/4c19208c-9f9a-40a4-96ee-80cb67cb2a44" />
-  <br/>
-  <em>Breadboard prototype with the Home screen on the OLED.</em>
 </p>
 
 ## Credits
